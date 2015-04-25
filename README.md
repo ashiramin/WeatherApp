@@ -7,8 +7,6 @@ The database has two tables user and cities which are linked using userid from t
 
 Unfortunately I couldn't get to add the feature where it prompts the users location and diplays its weather. Although I had everything figured out for it like using HTML5 geolocation to get the coordinates and do reverse lookup using google maps api but I ran into problem of getting a function API key. I was constantly getting the error that my api key wasn't registered when I made the api call.
 
-When adding new cities the API would work when a city is selected which has the string in the following format city, state eg Lexington, KY, United States and won't work if you give it Foreman Avenue, Lexington, KY, United States.
-
 I chose wunderground api to get weather data for different locations. The api is used by weather channel. Whenever I look for a 3rd pary tool or an API to work with. I consider three things, its developer communtiy and forums, documentation and the frequency with which updates to comply with the latest standards and I applied that here. <br/><br/> 
 The reason I chose this API was mostly beacause of its documentation.The documentation for this particular API was pretty extensive with sample codes in a variety of languages. Everything was very detailed and thoroughly explained. And also since the API is used by a lot of developers it would most certainly have a thriving discussion forum when developer run into problems using the API.
 
